@@ -4,7 +4,7 @@ interface NavBarButtonParams {
 
 export const NavBarButton = ({ content, link }: NavBarButtonParams) => {
     return <a href={link} className="py-3 px-5 md:mx-1 rounded-lg select-none hover:bg-primary text-primary font-bold uppercase
-        hover:bg-opacity-30 hover:underline decoration-wavy decoration-3 underline-offset-8
+        hover:bg-opacity-30 hover:underline decoration-wavy decoration-2 underline-offset-8 hover:underline-offset-4
         transition-all duration-200 ease-linear">
         {content}
     </a>

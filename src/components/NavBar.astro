@@ -6,7 +6,7 @@ import { Sprite } from "astro-icon";
 <nav class="py-3 flex flex-row items-center px-5 md:mx-7 backdrop-blur-md z-1">
     <div class="flex-none p-3 rounded-lg bg-primary bg-opacity-0 hover:bg-opacity-40">
         <img
-            src="/logo.png"
+            src="./logo.png"
             width="24"
             height="24"
         />
@@ -16,19 +16,8 @@ import { Sprite } from "astro-icon";
 
     <div class="flex-none">
         <NavBarButton content={"About"} link={"./#About"} />
-        <NavBarButton content={"Projects"} link={"./#About"} />
-        <NavBarButton content={"Contact"} link={"./#About"} />
-    </div>
-
-    <div class="flex-none">
-        <SocialMediaButton link="https://twitter.com/TheLuckyCoder">
-            <Sprite
-                className={"inline"}
-                name="mdi:twitter"
-                size={24}
-                color="#00b0ff"
-            />
-        </SocialMediaButton>
+        <NavBarButton content={"Projects"} link={"./#Projects"} />
+        <NavBarButton content={"Contact"} link={"./#Contact"} />
     </div>
 
     <div class="flex-none">
@@ -38,6 +27,19 @@ import { Sprite } from "astro-icon";
                 name="mdi:github"
                 size={24}
                 color="#00b0ff"
+                title="GitHub"
+            />
+        </SocialMediaButton>
+    </div>
+
+    <div class="flex-none">
+        <SocialMediaButton link="https://twitter.com/TheLuckyCoder">
+            <Sprite
+                className={"inline"}
+                name="mdi:twitter"
+                size={24}
+                color="#00b0ff"
+                title="Twitter"
             />
         </SocialMediaButton>
     </div>
@@ -49,6 +51,7 @@ import { Sprite } from "astro-icon";
                 name="mdi:linkedin"
                 size={24}
                 color="#00b0ff"
+                title="LinkedIn"
             />
         </SocialMediaButton>
     </div>
