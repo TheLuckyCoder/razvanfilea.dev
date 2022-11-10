@@ -3,8 +3,8 @@ import { NavBarButton, SocialMediaButton } from "./NavBarButtons";
 import { Sprite } from "astro-icon";
 ---
 
-<nav class="py-3 flex flex-row items-center px-5 md:mx-7 backdrop-blur-md z-1">
-    <div class="flex-none p-3 rounded-lg bg-primary bg-opacity-0 hover:bg-opacity-40">
+<nav class="w-full py-6 md:py-3 flex flex-row items-center px-2 sm:px-4 md:px-8 backdrop-blur-md z-1">
+    <div class="flex-none p-3 rounded-lg bg-primary bg-opacity-0 hover:bg-opacity-40 max-md:hidden">
         <img
             src="./logo.png"
             width="24"
@@ -13,7 +13,7 @@ import { Sprite } from "astro-icon";
         />
     </div>
 
-    <div class="flex-grow"></div>
+    <div class="flex-grow" />
 
     <div class="flex-none">
         <NavBarButton content={"About"} link={"./#About"} />
@@ -46,7 +46,7 @@ import { Sprite } from "astro-icon";
     </div>
 
     <div class="flex-none">
-        <SocialMediaButton link="https://github.com/TheLuckyCoder">
+        <SocialMediaButton link="https://www.linkedin.com/in/r%C4%83zvan-f-801194163/">
             <Sprite
                 className={"inline"}
                 name="mdi:linkedin"

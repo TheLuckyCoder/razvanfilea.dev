@@ -1,22 +1,26 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
-import NavBar from "../components/NavBar.astro";
+import NavBar from "../components/NavBar/NavBar.astro";
 import { Projects } from "../components/Projects";
 import { Sprite } from "astro-icon";
 import { NameContent } from "../components/NameContent";
+import { AboutMe } from "../components/AboutMe";
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 	<head>
 		<BaseHead />
 	</head>
 	<body class="bg-black">
 		<Sprite.Provider>
 			<NavBar />
-			<NameContent />
 			<main>
+				<NameContent />
+
+				<AboutMe />
+
 				<Projects client:idle/>
 			</main>
 			<Footer />
