@@ -13,7 +13,6 @@
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/solid-js": "^1.2.2",
     "@astrojs/tailwind": "^2.1.2",
-    "@solid-primitives/mouse": "^2.0.4",
     "astro": "^1.6.0",
     "astro-icon": "^0.8.0",
     "solid-js": "^1.6.1",

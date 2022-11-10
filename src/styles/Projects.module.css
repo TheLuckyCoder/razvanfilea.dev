@@ -1,7 +1,3 @@
-:root {
-    --card-color: rgb(23, 23, 23);
-}
-
 #cards:hover>.card::after {
     opacity: 1;
 }
@@ -47,8 +43,8 @@
     z-index: 1;
 }
 
-.card>.card-content {
-    background-color: var(--card-color);
+.card>.cardContent {
+    background-color: rgb(23, 23, 23);
     border-radius: inherit;
     display: flex;
     flex-direction: column;
